@@ -1,0 +1,378 @@
+.click {
+    padding: 2px 10px;
+    margin-top: -150%;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+   background-image: url(./imagenes/45e46f49fb55a01ba4e4685d985abf48.gif);
+   background-size: 120%;
+    box-shadow: 1px 1px 30px -5px#a6a6a6; 
+    cursor: pointer;
+    margin-left: 81%;
+    border-radius: 50%;
+    background-color: #4a4a4a;
+  }
+  
+  .melodia{
+    color: #ffffff;
+  }
+
+
+
+  
+  
+  .portada{
+    width: 100%;
+    margin-top: -5%;
+  }
+    
+  .audio{
+    width: 35%;
+    height: 20px;
+    margin-left: -70%;
+    background-color:  #ffffff;
+    color: #3d3d3d;
+    margin-top: -48%;
+    
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+
+      .cuenta-regresiva {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 1em;
+        padding: 0.3em;
+        margin-top: -45%;
+    }
+    
+  .portada{
+    width: 100%;
+  }
+    
+  
+    .cr-time > span {
+        font-size: 23px;
+        font-weight: bold;
+        color: #b88d2c;
+        font-family: 'Julius Sans One', sans-serif;
+        
+        
+    }
+    .cr-desc {
+        color: #737373;
+        font-weight: 500;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 15px;
+        
+    }
+    .cr-block {
+        border-radius: 5px;
+        padding: 0.1em 0.2em;
+      
+    }
+    .Play{
+    
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 10%;
+      color: #515051;
+     
+     }
+      h5{
+      font-size: 15px;
+      text-align: center;
+      margin-top: -5%;
+      
+      
+      }
+    
+    
+    .segundo{
+  width: 17%;
+  margin-top: -25%;
+  margin-left: 68%;
+    }
+  
+    
+  
+    .amor {
+      width: 10%;
+      margin-left: 45%;
+      margin-top: 75%;
+    }
+      
+      .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #e9e9e9;
+        z-index: 9999;
+      
+      }
+      
+      .preloader::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 40px;
+        height: 40px;
+        margin: -20px 0 0 -20px;
+        border: 4px solid #76bac204; /* Color del círculo */
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: spin 5s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      
+      }
+      
+      .loaded {
+        overflow: auto;
+      }
+      
+      .loaded .preloader {
+        transition-property: opacity, left;
+        transition-duration: 0.95s, 0s;
+        transition-delay: 0s, 0.95s;
+        opacity: 0;
+        left: 100%;
+      }
+  
+
+
+    .parrafo1{
+      text-align: center;
+      font-family: 'Julius Sans One', sans-serif;
+           font-size: 20px;
+           color: #626262;
+           font-weight: 600;
+           margin-top: 20%;
+    }
+  .seccion-fiesta{
+    margin-top: -5%;
+  }
+  .seccion-regalo{
+    margin-top: -4%;
+  }
+  
+  .frase{
+    text-align: center;
+    font-size: 28px;
+    color: #636363;
+    margin-top: 20%; 
+    font-weight: 550;
+    margin: 13%;
+    font-family: 'Dancing Script', cursive; 
+  }
+  .fiesta{
+    text-align: center;
+    font-size: 35px;
+    color: #b88d2c;
+    margin-top: 2%; 
+    font-weight: 550;
+    margin: 13%;
+    font-family: 'Dancing Script', cursive; 
+  }
+  .obsequio{
+    text-align: center;
+    font-size: 35px;
+    color: #b88d2c;
+    margin-top: 2%; 
+    font-weight: 550;
+    margin: 13%;
+    font-family: 'Dancing Script', cursive; 
+  }
+  
+  .copas{
+    width: 25%;
+    margin-left: 38%;
+    margin-top: -15%;
+    
+  }
+  .final{
+    width: 38%;
+    margin-left: 31%;
+    margin-top: -5%;
+    
+  }
+  .regalo{
+    width: 22%;
+    margin-left: 38%;
+    margin-top: -10%;
+    
+  }
+  
+  
+  .parrafodos{
+    text-align: center;
+    font-size: 25px;
+    color: #4c4c4c;
+    margin-top: 5%; 
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+         
+  }
+  
+    
+   
+
+    .ubicacion {
+      padding: 2px 10px;
+      font-family: "Arsenal SC", sans-serif;
+      margin-top: -20%;
+      font-size: 25px;
+      font-weight: 400;
+      border: none;
+      border-radius: 20px;
+      color: #fcfcfc;
+     background-image: url(./IMAGENES/confeti.gif);
+     background-size: 150%;
+      box-shadow: 1px 1px 30px -5px#d2c598; 
+      cursor: pointer;
+      background-color: #b88d2c;
+      text-decoration: none;
+    }
+    .boton{
+text-align: center;
+margin-top: 10%;
+    }
+
+
+    .form{
+      width: 14%;
+      margin-left: 45%;
+      margin-top: -17%;
+      
+    }
+
+
+.dorado{
+  width: 100%;
+  margin-top: -15%;
+}
+
+.chat{
+width: 20%;
+margin-left: 10% ;
+}
+.vicky{
+  width: 25%;
+margin-left: 5% ;
+}
+
+.hojas{
+  width: 65%;
+margin-left:-15% ;
+}
+
+
+
+.parrafoDe{
+  text-align: center;
+  font-size: 25px;
+  color: #4b4b4b;
+  margin-top: 12%; 
+  margin: 5%;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  background-image: url(./imagenes/5af1f7230024abf57e8020427471018e.gif);
+  background-size:30%;
+
+}
+.parrafo3{
+  text-align: center;
+    font-size: 25px;
+    color: #4c4c4c;
+    margin-top: 5%; 
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+       
+}
+
+
+.carousel-inner img{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+
+
+
+.esperamos{
+  text-align: center;
+    font-size: 25px;
+    color: #4c4c4c;
+    margin-top: 15%; 
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+ 
+}
+
+.click2{
+ padding: 2px 10px;
+      font-family: "Arsenal SC", sans-serif;
+      margin-top: 5%;
+      font-size: 25px;
+      font-weight: 400;
+      border: none;
+      border-radius: 20px;
+      color: #fcfcfc;
+     background-image: url(./IMAGENES/confeti.gif);
+     background-size: 150%;
+      box-shadow: 1px 1px 30px -5px#d2c598; 
+      cursor: pointer;
+      background-color: #b88d2c;
+      text-decoration: none;
+      margin-left: 37%;
+}
+.tecla {
+  margin-top: -50%;
+   margin-left: 50%;
+  }
+  
+  
+  .box__copyright {
+    max-width: 1200px;
+    padding: 18px 7px;
+    text-align: center;
+    margin-top: 30%;
+    background-color: #ffffff;
+    font-size: 100%;
+  }
+  
+  .box__copyright p {
+    margin-top: -10px;
+    color: #c3b1b1;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .box__copyright a {
+    text-decoration: none;
+    color: #91a891;
+  }
